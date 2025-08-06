@@ -6,8 +6,8 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(to right, #ffffff, #f3e8ff);
-  color: #333;
+  background: linear-gradient(to right, #eef4ff, #e6f7ff);
+  color: #2c3e50;
   line-height: 1.6;
   overflow-x: hidden;
   transition: background 0.3s ease;
@@ -15,13 +15,13 @@ body {
 
 /* Header */
 header {
-  background: linear-gradient(to right, #cba5ff, #e0bbff);
+  background: linear-gradient(to right, #041e44, #84c5ff);
   padding: 1.5rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  border-bottom: 2px solid #eee;
+  border-bottom: 2px solid #151e26;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -41,7 +41,7 @@ nav .menu-toggle {
   background: none;
   border: none;
   font-size: 2rem;
-  color: rgb(33, 4, 4);
+  color: #264653;
   cursor: pointer;
 }
 
@@ -53,7 +53,7 @@ nav .menu-toggle {
 }
 
 .nav-links a {
-  color: rgb(53, 6, 6);
+  color: #1d3557;
   text-decoration: none;
   font-weight: 600;
   position: relative;
@@ -67,7 +67,7 @@ nav .menu-toggle {
   bottom: -4px;
   width: 0%;
   height: 2px;
-  background: white;
+  background: #ffffff;
   transition: 0.3s ease;
 }
 
@@ -93,7 +93,7 @@ nav .menu-toggle {
 .sidebar {
   flex: 1;
   min-width: 250px;
-  background: #f9f6ff;
+  background: #f0f8ff;
   padding: 1.5rem;
   border-radius: 15px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
@@ -106,24 +106,24 @@ nav .menu-toggle {
   padding: 1.5rem;
   margin-bottom: 2rem;
   border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(155, 100, 255, 0.08);
+  box-shadow: 0 10px 30px rgba(0, 100, 255, 0.08);
   overflow: hidden;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
 .post:hover {
   transform: translateY(-5px);
-  box-shadow: 0 15px 35px rgba(155, 100, 255, 0.15);
+  box-shadow: 0 15px 35px rgba(0, 100, 255, 0.15);
 }
 
-/* Images — not cropped */
+/* Images */
 .post img {
   width: 100%;
   height: auto;
   max-height: 400px;
   border-radius: 12px;
-  object-fit: contain; /* So image shrinks but isn't cropped */
-  background: #f3eaff;
+  object-fit: contain;
+  background: #eaf4ff;
   padding: 0.5rem;
   transition: transform 0.5s ease;
 }
@@ -134,13 +134,13 @@ nav .menu-toggle {
 
 /* Footer */
 footer {
-  background: #eee9f9;
-  color: #555;
+  background: #e0f2ff;
+  color: #444;
   text-align: center;
   padding: 1.5rem;
   margin-top: 3rem;
   font-size: 0.9rem;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #cce0f5;
 }
 
 /* Animations */
@@ -171,7 +171,6 @@ footer {
   .container {
     flex-direction: column;
     padding: 1rem;
-
   }
 
   nav .menu-toggle {
@@ -181,7 +180,7 @@ footer {
   .nav-links {
     flex-direction: column;
     width: 100%;
-    background: #d8baff;
+    background: #b0d8ff;
     display: none;
     padding: 1rem;
     border-radius: 0 0 12px 12px;
